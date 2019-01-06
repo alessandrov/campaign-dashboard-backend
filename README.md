@@ -45,7 +45,7 @@ An instance of H2 is in place.
         "remaining_budget":12,
         "start_date":1530568800000,
         "end_date":1532901600000,
-        "target_audiance":{
+        "target_audience":{
           "languages":["FR","EN","DE"],
           "genders":["M", "F"],
           "age_range":[20, 66],
@@ -85,7 +85,7 @@ An instance of H2 is in place.
         "remaining_budget":14,
         "start_date":1530568800000,
         "end_date":1532901600000,
-        "target_audiance":{
+        "target_audience":{
           "languages":["FR","EN","DE"],
           "genders":["M", "F"],
           "age_range":[20, 66],
@@ -126,7 +126,7 @@ An instance of H2 is in place.
         "remaining_budget":24,
         "start_date":1530568800000,
         "end_date":1532901600000,
-        "target_audiance":{
+        "target_audience":{
           "languages":["FR","EN","DE"],
           "genders":["M", "F"],
           "age_range":[20, 66],
@@ -182,7 +182,7 @@ An instance of H2 is in place.
         "remaining_budget":12,
         "start_date":1513724400000,
         "end_date":1514674800000,
-        "target_audiance":{
+        "target_audience":{
           "languages":["EN"],
           "genders":["M", "F"],
           "age_range":[20, 45],
@@ -220,7 +220,7 @@ An instance of H2 is in place.
         "remaining_budget":0,
         "start_date":1513724400000,
         "end_date":1514674800000,
-        "target_audiance":{
+        "target_audience":{
           "languages":["EN"],
           "genders":["M", "F"],
           "age_range":[20, 45],
@@ -268,7 +268,7 @@ An instance of H2 is in place.
         "remaining_budget":40,
         "start_date":1532901600000,
         "end_date":1535580000000,
-        "target_audiance":{
+        "target_audience":{
           "languages":["EN"],
           "genders":["M", "F"],
           "age_range":[20, 65],
@@ -306,7 +306,7 @@ An instance of H2 is in place.
         "remaining_budget":40,
         "start_date":1532901600000,
         "end_date":1535580000000,
-        "target_audiance":{
+        "target_audience":{
           "languages":["EN"],
           "genders":["M", "F"],
           "age_range":[20, 45],
