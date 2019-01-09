@@ -23,46 +23,34 @@ public class DataLoader implements ApplicationRunner {
 
     private static final Logger logger = LoggerFactory.getLogger(DataLoader.class);
     private final String imagesPath;
+
+    @Autowired
     private AgeRangeRepository ageRangeRepository;
+    @Autowired
     private CampaignRepository campaignRepository;
+    @Autowired
     private CreativeRepository creativeRepository;
+    @Autowired
     private GenderRepository genderRepository;
+    @Autowired
     private InsightRepository insightRepository;
+    @Autowired
     private InterestRepository interestRepository;
+    @Autowired
     private KeywordRepository keywordRepository;
+    @Autowired
     private LanguageRepository languageRepository;
+    @Autowired
     private LocationRepository locationRepository;
+    @Autowired
     private PlatformRepository platformRepository;
+    @Autowired
     private PlatformTypeRepository platformTypeRepository;
+    @Autowired
     private TargetAudienceRepository targetAudienceRepository;
 
     @Autowired
-    public DataLoader(AgeRangeRepository ageRangeRepository,
-                      CampaignRepository campaignRepository,
-                      CreativeRepository creativeRepository,
-                      GenderRepository genderRepository,
-                      InsightRepository insightRepository,
-                      InterestRepository interestRepository,
-                      KeywordRepository keywordRepository,
-                      LanguageRepository languageRepository,
-                      LocationRepository locationRepository,
-                      PlatformRepository platformRepository,
-                      PlatformTypeRepository platformTypeRepository,
-                      TargetAudienceRepository targetAudienceRepository) {
-
-        this.ageRangeRepository = ageRangeRepository;
-        this.campaignRepository = campaignRepository;
-        this.creativeRepository = creativeRepository;
-        this.genderRepository = genderRepository;
-        this.insightRepository = insightRepository;
-        this.interestRepository = interestRepository;
-        this.keywordRepository = keywordRepository;
-        this.languageRepository = languageRepository;
-        this.locationRepository = locationRepository;
-        this.platformRepository = platformRepository;
-        this.platformTypeRepository = platformTypeRepository;
-        this.targetAudienceRepository = targetAudienceRepository;
-
+    public DataLoader() {
         String workingDirectory = System.getProperty("user.dir");
 
         this.imagesPath = workingDirectory + File.separator + "images";
